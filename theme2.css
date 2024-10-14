@@ -1,0 +1,106 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #17062a;
+}
+
+.calc{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.screen{
+    width: 387.8px;
+    height: 90px;
+    border-radius: 8px;
+    background-color: #1e0836;
+    color: #f2da48;
+    margin: 0 auto;
+    padding: 10px; /* Padding for screen content */
+    box-sizing: border-box; /* Include padding in the width */
+}
+
+.ans{
+    font-size: 30pt;
+    text-align: right;
+    padding-top: 12px;
+}
+
+.keypad-box {
+    width: 360px;
+    padding: 15px; /* This gives the 15px margin from the box to the rows */
+    background-color: #1e0836; /* Optional background color for the box */
+    border-radius: 10px; /* Optional for a rounded box */
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between rows */
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .row .del{
+    font-size: 12pt;
+    color: white;
+    background-color: #56077c;
+  }
+
+  .row .del:hover{
+    background-color: #a2b3e1;
+  }
+
+  button {
+    width: 80px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #331b4d;
+    color: #f2da48;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ccc;
+  }
+
+  .last_row {
+    display: flex;
+    gap: 15px;
+  }
+
+  .last_row .eql{
+    font-size: 12pt;
+    color: black;
+    background-color: #00decf;
+  }
+
+  .last_row .eql:hover{
+    background-color: #f96a5a;
+  }
+
+  .last_row .rst{
+    font-size: 12pt;
+    color: white;
+    background-color: #56077c;
+  }
+
+  .last_row .rst:hover{
+    background-color: #a2b3e1;
+  }
+
+  .last_row button{
+    width: 180px;
+    height: 50px;
+    font-size: 12pt;
+    background-color: #ddd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
